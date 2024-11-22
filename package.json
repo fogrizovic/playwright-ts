@@ -1,0 +1,15 @@
+{
+  "name": "playwright-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fogrizovic/playwright-ts.git",
+  "author": "Federico Ogrizovic <fogrizovic@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.1"
+  },
+  "scripts": {
+    "test:chrome": "playwright test --project=chromium"
+  }
+}
