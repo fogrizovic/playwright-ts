@@ -1,11 +1,6 @@
-import { test, expect } from 'playwright/test'
-import { LoginPage } from '../pages/login.page'
-import { DashboardPage } from '../pages/dashboard.page'
+import { test, expect } from '../fixtures'
 
-test('Verify login successful', async ({ page }) => {
-  const loginPage = new LoginPage(page)
-  const dashboardPage = new DashboardPage(page)
-
+test('Verify login successful', async ({ loginPage, dashboardPage }) => {
   await loginPage.goto()
   await loginPage.doLogin('admin', 'admin123')
   await expect(dashboardPage.pageTitleLabel).toHaveText('Dashboard')
