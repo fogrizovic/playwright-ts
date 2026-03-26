@@ -6,8 +6,8 @@
   "author": "Federico Ogrizovic <fogrizovic@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.49.0",
-    "@types/node": "^22.9.1"
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
   },
   "scripts": {
     "test:chrome": "playwright test --project=chromium"
