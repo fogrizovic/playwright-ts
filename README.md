@@ -2,6 +2,13 @@
 
 A TypeScript-based testing project using Playwright.
 
+## Stack
+
+- **Playwright** ^1.49.0
+- **TypeScript** (strict mode)
+- **Allure** — test reporting
+- **Yarn** — package manager
+
 ## Prerequisites
 
 Before running this project, ensure you have the following installed:
